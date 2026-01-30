@@ -1,0 +1,21 @@
+PODS:
+  - Shake (17.2.0)
+
+DEPENDENCIES:
+  - "Shake (from `ssh://git@github.com/shakebugs/shake-ios.git`)"
+
+EXTERNAL SOURCES:
+  Shake:
+    :git: "ssh://git@github.com/shakebugs/shake-ios.git"
+
+CHECKOUT OPTIONS:
+  Shake:
+    :commit: 333755b89afb0549d5c02543485cc1d1ccbf51c6
+    :git: "ssh://git@github.com/shakebugs/shake-ios.git"
+
+SPEC CHECKSUMS:
+  Shake: 81f13cdef588d05cac5c9409a89164036ac9a74a
+
+PODFILE CHECKSUM: 8988144f925c409842c56add851377f0aecd612c
+
+COCOAPODS: 1.16.2
