@@ -1,13 +1,17 @@
-# Ratios
-[![Build Status](https://travis-ci.org/johnmahlon/Coffee-Ratio.svg?branch=master)](https://travis-ci.org/johnmahlon/Coffee-Ratio)
+# Shake SwiftUI Screenshot Repro
 
-This is an open source app made to help home brewers brew their coffee by calculating the grams of water needed,
-and run a timer all in the same screen. 
+Minimal repro project for a Shake iOS SDK issue in SwiftUI.
 
-This is perfect for:
-- Chemex
-- French Press
-- V60
-- other slow bar methods 
+## Issue
+- Screenshot capture in SwiftUI during transitions
+- Black screenshots or crashes
+- Involves TabView + PageTabViewStyle + AVPlayerViewController
 
-![app screenshot](screenshot.png)
+## Setup
+- iOS 17+
+- SwiftUI
+- CocoaPods
+
+## Run
+pod install  
+open Ratios.xcworkspace
